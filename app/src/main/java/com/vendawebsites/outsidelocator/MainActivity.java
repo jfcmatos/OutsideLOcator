@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View view) {
-                        if (editText.getText().toString().equals("4442") ) {
+                        if (editText.getText().toString().equals("1234") ) {
 
                             Intent intent1 = new Intent(MainActivity.this, Main2Activity.class);
                             startActivity(intent1);
